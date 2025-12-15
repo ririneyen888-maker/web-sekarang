@@ -1,0 +1,43 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #F8E1E9, #F4C7D1); /* Soft pink sesuai preferensi */
+    min-height: 100vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(255,255,255,0.9);
+}
+.hero h1 { font-size: 3rem; margin-bottom: 20px; color: #333; }
+.hero p { font-size: 1.2rem; margin-bottom: 30px; color: #666; }
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn:hover { background: #0056b3; }
+
+section { padding: 60px 20px; max-width: 800px; margin: 0 auto; }
+h2 { font-size: 2.5rem; text-align: center; margin-bottom: 30px; }
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.05);
+    color: #666;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 2rem; }
+    section { padding: 40px 15px; }
+}
